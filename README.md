@@ -1,3 +1,24 @@
+
+Gần đây thấy một dự án TTS khá thú vị có hỗ trợ tiếng Việt ❤️
+
+Ý tưởng của nó rất trực tiếp: làm TTS nhỏ gọn hết mức có thể.
+
+Phiên bản nhỏ nhất heart-nano chỉ có 294K tham số, trọng số mô hình 337KB, phiên bản lớn nhất cũng chỉ 2.27M tham số. Thậm chí có thể chạy trực tiếp trên ESP32-S3 giá khoảng $3, không cần đám mây, cũng chẳng cần NPU.
+
+Hơn nữa, trong trình duyệt cũng chạy được luôn, WebAssembly xử lý toàn bộ cục bộ, không cần upload văn bản lên server.
+
+Hiện tại có 11 giọng nói, 6 ngôn ngữ, hỗ trợ Python, NPM, Arduino/PlatformIO đều dùng được.
+
+Tôi thấy loại dự án này thú vị hơn hẳn việc cứ làm mô hình to ra mãi.
+
+Sau này một món đồ chơi nhỏ, một chip MCU, thậm chí một trang web, có thể tự "nói chuyện" luôn.
+
+AI không nhất thiết phải nhồi nhét vào đám mây.
+
+Chạy được trong 337KB, mới thực sự là có chút bản lĩnh.
+
+
+
 # sanoTTS — a tiny neural voice that runs anywhere
 
 ***sano*** (सानो) — Nepali for **"small."** A family of tiny neural text-to-speech
